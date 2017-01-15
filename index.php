@@ -21,8 +21,11 @@
         IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
         CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     */
-
-    require 'vendor/autoload.php';
+    require 'lib/flight/flight/Flight.php';
+    require 'lib/DotNotation/DotNotation.php';
+    require 'src/CmOta.php';
+    require 'src/Helpers/Build.php';
+    require 'src/Helpers/Builds.php';
 
     use \JX\CmOta\CmOta;
 
